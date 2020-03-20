@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
-import  django_heroku
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')q=-#zmjc13*%a05zcpgq@py2^*d$xb^j7al$i1_f-vyba@*y3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -159,3 +159,4 @@ EMAIL_HOST_PASSWORD = 'Leo.124680'
 # EMAIL_HOST_PASSWORD = 'tsctxqnbmbttjcyo'
 # import socket
 # socket.getaddrinfo('localhost', 8080)
+django_heroku.settings(locals())
