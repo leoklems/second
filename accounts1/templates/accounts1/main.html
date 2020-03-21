@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    {%include 'accounts1/css.html'%}
+    {%include 'accounts1/js.html'%}
+    <style>
+
+    </style>
+</head>
+<body>
+{% include 'accounts1/navbar.html' %}
+<hr>
+{% block content %} {% endblock %}
+<hr>
+<h5></h5>
+</body>
+</html>
