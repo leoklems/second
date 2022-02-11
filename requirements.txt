@@ -67,7 +67,7 @@ sqlparse==0.3.0
 stripe==2.41.1
 suit==2.0.2
 tools==0.1.9
-Twisted==19.10.0
+Twisted==22.1.0
 txaio==18.8.1
 urllib3==1.25.7
 whitenoise==5.0.1
